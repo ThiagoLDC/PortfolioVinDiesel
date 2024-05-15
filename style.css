@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat';
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style: none;
+}
+
+nav {
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0 16px;
+    background-color: #202020;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav a {
+    display: inline-block;
+    padding: 15px 20px;
+}
+
+nav .brand {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.container {
+    padding: 0 15px;
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+.dark-section {
+    background-color: #3C3A3A;
+    color: #f0f0f0;
+}
+
+section {
+    padding: 100px;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+section h1 {
+    text-align: center;
+    font-size: 38px;
+    margin-bottom: 20px;
+}
+
+#home {
+    height: 100vh;
+    display: flex;
+}
+
+.home-content {
+    background: linear-gradient(to top right, #202020, #343131);
+    width: 40%;
+    max-width: 450px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.home-content h1 {
+    font-size: 44px;
+}
+
+.home-content h2 {
+    letter-spacing: 5px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.home-background {
+    background-image: url(assets/img/header.png);
+    background-position: center top;
+    background-size: cover;
+    position: relative;
+    flex-grow: 1;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .3);
+}
+
+#sobre p {
+    line-height: 1.5;
+}
+
+#sobre a:hover {
+    color: #36c;
+}
+
+#portfolio .container {
+    max-width: 1280px;
+}
+
+#portfolio ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#portfolio ul li {
+    width: 25%;
+    padding: 40px;
+    text-align: center;
+}
+
+#portfolio ul li h2 {
+    font-size: 18px;
+    min-height: 48px;
+    font-weight: 500;
+}
+
+#portfolio ul li img {
+    object-fit: cover;
+    width: 100%;
+    height: 140px;
+    margin: 12px 0;
+    border: 2px solid;
+}
+
+#portfolio a:hover {
+    text-decoration: underline;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 12px 16px;
+    border-radius: 4px;
+    background-color: #4caf50;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+footer {
+    text-align: center;
+    padding: 30px 20px;
+    font-weight: 600;
+}
